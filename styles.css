@@ -1,0 +1,129 @@
+html {box-sizing: border-box;} 
+*, *::before, *::after {box-sizing:inherit;}
+
+/* #container {
+    width: 300px;
+    background: lightblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 14px;
+}
+
+h3 {
+    padding-top:10px;
+    margin-bottom:0;
+
+}
+ 
+button {
+    margin: 10px 5px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+input {
+    -webkit-appearance: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 100px;
+    margin: 10px;
+}
+
+input:nth-of-type(3) {
+    width: 220px;
+}
+
+#operators {
+    display: block;
+}
+
+::placeholder {
+    text-align: center;
+} */
+
+/* if i mess up, go back to this css: */
+/* #container {
+    width: 350px;
+}
+
+div {
+    padding:0;
+    margin:0;
+    float: left;
+}
+
+button, input {
+    margin: 0;
+    border:2px solid green;
+    width: 80px;
+    height: 80px;
+    background: lightgreen;
+    float: left;
+}
+
+input {
+    width: 240px;
+}
+
+#top {
+}
+
+#numbers {
+    width: 240px;
+}
+
+#operators {
+    display: flex;
+    flex-direction: column;
+    float: left;
+} */
+
+
+#container {
+    width: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+
+div {
+    padding:0;
+    margin:0;
+    float: left;
+}
+
+button, input {
+    margin: 0;
+    border:1px solid rgb(158,198,141);
+    width: 80px;
+    height: 80px;
+    background: rgb(120,176,97);
+    float: left;
+    color: white;
+}
+
+input {
+    width: 240px;
+}
+
+
+#numbers {
+    width: 240px;
+}
+
+div #operators {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    background: rgb(145,191,127);
+}
+
+button:hover {
+    background: rgb(158,198,141);
+}
+
